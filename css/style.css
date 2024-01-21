@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/GettyImages-467968752-climate-egypt-protest-alaa.webp);
+    background-size: cover;
+    background-position: 100%;
+    background-clip: inherit;
+}
+
+.layer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+
+.Home-title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+
+}
+
+/* **********end header********** */
+#sideBar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.sideBar-inner{
+    background-color: #ccc;
+    padding: 10px;
+
+}
+#sideBar i {
+    transform: translateY(100%);
+    background-color: #ff206e;
+    color: #fff;
+    padding: 10px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.color-box{
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    display: inline-block;
+
+}
+#sideBar li{
+    list-style: none;
+}
+#sideBar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.Box-one ,.Box-two ,.Box-three , .Box-four{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+.text {
+    background-color: chocolate ;
+    cursor: pointer;
+}
+.content ,.content ,.content ,.content{
+display: none;
+
+}
+
+
+.countdown{
+   text-align: center;
+   padding: 40px;
+   background-attachment: url(../imgs/download.jfif);
+   
+}
+
+
+.single-count{
+    width: 200px;
+    display: inline-block;
+    background: #eee;
+    padding: 40px 0;
+    margin: 30px 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  #characterCount {
+    color: gray;
+  }
+
+  .contact{
+    padding-top : 6%;
+}
+.contact .contact-head h2{
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+    width: fit-content;
+}
+.contact .contact-head h2:after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    z-index:-1;
+}
+.form-control {
+    border: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+}
+.contact-holder{
+    position: relative;
+}
+.contact-holder:hover .contact-icon{
+    background-color: black;
+}
+.contact-icon i{
+    transition: all 0.5s;
+}
+.contact-holder:hover .contact-icon i{
+    color: white;
+}
+.contact-holder h5{
+padding-top: 70px;
+}
+.contact-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.5s;
+    background-color: #d6d6d66b;
+}
+.contact .container input{
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+}
+
+.conatct-btn{
+    width: 15%;
+    padding: 6px 2px ;
+    margin-left: 12px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: all 1s;
+    border-radius: 5px;
+}
+.conatct-btn:hover{
+    background-color: white;
+    color: black;
+}
